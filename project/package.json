@@ -1,0 +1,20 @@
+{
+  "name": "__PROJECT_NAME__",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "encore run",
+    "build": "encore build",
+    "start": "node dist/index.js",
+    "test": "echo \"Add tests\" && exit 0",
+    "lint": "echo \"Add linter\" && exit 0",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "encore.dev": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
